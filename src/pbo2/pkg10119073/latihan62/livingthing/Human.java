@@ -1,0 +1,30 @@
+package pbo2.pkg10119073.latihan62.livingthing;
+
+/**
+ *
+ * @author 
+ * NAMA     : Aghnia Dewi Mahiranie
+ * KELAS    : PBO2
+ * NIM      : 10119073
+ * Deskripsi Program : Program ini berisi program untuk menampilkan teks
+ * dengan konsep abstract class
+ *
+ */
+
+public class Human extends LivingThing{
+    private String nama;
+    
+    public String getNama(){
+        return nama;
+    }
+    
+    public void setNama(String nama){
+        this.nama = nama;
+    }
+    
+    @Override
+    public void walk(String nama) {
+        System.out.println(nama+ " sedang berjalan");
+    }
+
+}
